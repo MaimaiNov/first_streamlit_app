@@ -28,4 +28,4 @@ streamlit.text(fruityvice_response.json())
 # flatten json file
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # create a table
-#streamlit.dataframe(fruityvice_normalized)
+streamlit.dataframe(fruityvice_normalized)
